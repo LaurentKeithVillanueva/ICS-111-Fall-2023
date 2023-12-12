@@ -1,0 +1,41 @@
+Test 1: Just enough for a large
+
+Alice has $17.11. Bob has $17.11.
+Expected: large Observed: large
+Pass
+
+Test 2: More than enough for a large
+Carol has $25.00. Deidra has $35.00.
+Expected: large Observed: large
+Pass
+
+Test 3: One person is short a penny for a large
+Elon has $17.11. Francisco has $17.10.
+Expected: small Observed: small
+Pass
+
+Test 4: More than enough for a small but not enough for a large
+Greg has $16.00. Hansen has $15.00.
+Expected: small Observed: small
+Pass
+
+Test 5: Just enough for a small
+Iris has $12.33. Juan has $12.33.
+Expected: small Observed: small
+Pass
+
+Test 6: Neither person has enough for a pizza
+Kalani has $5.00. Marilou has $5.00.
+Expected: none Observed: none
+Pass
+
+Test 7: One person is short a penny for a small
+Napualani has $19.05. Omar has $12.32.
+Expected: none Observed: none
+Pass
+
+Test 8: One person can not pay half but the other can pay for a large
+Patricia has $5.00. Robin has $35.00.
+Expected: none Observed: none
+Pass
+
